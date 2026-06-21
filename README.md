@@ -118,3 +118,26 @@ The next recommended development steps are:
 ## Responsible use
 
 This repository does not certify carbon credits and does not provide investment-grade process design. It supports transparent modeling, engineering interpretation, and early-stage process comparison. Carbon-credit discussions are treated as screening-level and must be supported by full system boundaries, durable carbon storage evidence, emissions accounting, monitoring, reporting, and verification before any formal claim is made.
+
+## Curated simulation data
+
+This repository includes a lightweight curated data set derived from selected Cantera simulation outputs. The curated files are reduced versions of larger raw simulation result tables and contain the main variables needed for qualitative analysis of biomass conversion, biochar formation, and gas-product evolution.
+
+The curated data are organized around three sensitivity groups:
+
+- `data/curated/moisture_sweep_T790_O2-N2-23-77/`
+- `data/curated/temperature_sweep_H2O10_O2-N2-23-77/`
+- `data/curated/oxygen_sweep_H2O10_T790/`
+
+A case overview is provided in:
+
+- `data/manifest_simulation_cases.csv`
+
+Additional notes are provided in:
+
+- `data/README.md`
+- `docs/model_consistency_notes.md`
+- `docs/model_validation_plan.md`
+
+The data are simulated reactor outputs, not experimental measurements. They are provided for screening-level analysis, documentation, and reproducibility of qualitative trends. They should not be interpreted as experimentally validated design data for industrial-scale biochar plants.
+
