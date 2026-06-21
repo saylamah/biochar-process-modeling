@@ -1,0 +1,11 @@
+name: biochar-carbon
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - cantera>=3.0
+  - numpy
+  - pandas
+  - matplotlib
+  - pyyaml
+  - pip

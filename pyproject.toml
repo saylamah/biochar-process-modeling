@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biochar-process-modeling"
+version = "0.1.0"
+description = "Engineering models and technical notes for biomass conversion, biochar production, heat generation, syngas formation, and screening-level carbon management."
+authors = [{name = "Ahmad Saylam", email = "saylamah@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "cantera>=3.0",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "pyyaml>=6.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

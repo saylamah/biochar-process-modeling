@@ -1,0 +1,31 @@
+# Repository file manifest
+
+- `.gitignore`
+- `CITATION.cff`
+- `LICENSE_NOTES.md`
+- `README.md`
+- `data/README.md`
+- `data/case_comparison_wood_waste.csv`
+- `docs/assumptions_and_limitations.md`
+- `docs/carbon_credit_caution.md`
+- `docs/github_profile_snippet.md`
+- `docs/model_scope.md`
+- `docs/publications.md`
+- `docs/repository_roadmap.md`
+- `docs/source_publications/biomass-conversion-biochar-heat.pdf`
+- `docs/source_publications/thermochemical-process-development.pdf`
+- `docs/source_publications/waste-to-x-biomass-carbon-credit.pdf`
+- `environment.yml`
+- `examples/run_base_case.py`
+- `mechanisms/Wood_pyrolysis.cti`
+- `mechanisms/Wood_pyrolysis.yaml`
+- `notebooks/README.md`
+- `originals/blasi_original.py`
+- `pyproject.toml`
+- `requirements.txt`
+- `scripts/run_biochar_case.py`
+- `src/biochar_model/__init__.py`
+- `src/biochar_model/cantera_reactor.py`
+- `src/biochar_model/carbon_screening.py`
+- `src/biochar_model/feedstock.py`
+- `tests/test_feedstock.py`

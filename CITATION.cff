@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: "Biochar Process Modeling"
+message: "If you use this repository, please cite the repository and the related source publications."
+type: software
+authors:
+  - family-names: Saylam
+    given-names: Ahmad
+    email: saylamah@gmail.com
+repository-code: "https://github.com/saylamah/biochar-process-modeling"
+abstract: "Engineering models and technical notes for biomass conversion, biochar production, heat generation, syngas formation, and screening-level carbon management."
+keywords:
+  - biomass conversion
+  - biochar
+  - pyrolysis
+  - thermochemical conversion
+  - syngas
+  - carbon management
+  - waste-to-X
+references:
+  - type: report
+    title: "Enhancing Biomass Conversion: Advanced Modelling and Process Optimization for Efficient Biochar and Heat Production"
+    authors:
+      - family-names: Saylam
+        given-names: Ahmad
+    doi: "10.5281/zenodo.19438451"
+  - type: report
+    title: "Advancing Waste-to-X Technologies: Sustainable Thermochemical Pathways for Biomass Valorization and Carbon Credit Potential"
+    authors:
+      - family-names: Saylam
+        given-names: Ahmad
+    doi: "10.5281/zenodo.19785243"
+  - type: report
+    title: "Thermochemical Process Development: From Mechanism to Scale-Up and Industrial Adoption"
+    authors:
+      - family-names: Saylam
+        given-names: Ahmad
+    doi: "10.5281/zenodo.20760609"
