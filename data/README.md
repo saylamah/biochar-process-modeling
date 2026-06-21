@@ -8,6 +8,8 @@ The selected CSV files are reduced versions of larger simulation result files. T
 
 The files are **simulated reactor outputs**, not experimental measurements. They should not be interpreted as experimentally validated design data for industrial-scale biochar plants.
 
+The selected CSV files are stored inside `data/curated/` and organized by sensitivity group. Open the `curated/` folder to access the individual CSV files for moisture, temperature, and O₂/N₂ atmosphere cases.
+
 ## Curated columns
 
 Each curated CSV contains:
