@@ -74,6 +74,28 @@ biochar-process-modeling/
     └── test_feedstock.py
 ```
 
+## Using the curated data
+
+This repository includes selected, reduced Cantera simulation outputs that can be inspected without running the full Cantera reactor model. These curated CSV files support qualitative review of biomass conversion, biochar formation, moisture sensitivity, temperature sensitivity, oxygen/inert-gas sensitivity, and gas-product evolution.
+
+The curated data are organized in:
+
+- `data/curated/moisture_sweep_T790_O2-N2-23-77/`
+- `data/curated/temperature_sweep_H2O10_O2-N2-23-77/`
+- `data/curated/oxygen_sweep_H2O10_T790/`
+
+A case overview is provided in:
+
+- `data/manifest_simulation_cases.csv`
+
+Additional notes are provided in:
+
+- `data/README.md`
+- `docs/model_consistency_notes.md`
+- `docs/model_validation_plan.md`
+
+The data are simulated reactor outputs, not experimental measurements. They are provided for screening-level analysis, documentation, and reproducibility of qualitative trends. They should not be interpreted as experimentally validated design data for industrial-scale biochar plants.
+
 ## Quick start
 
 Create an environment and install the required packages:
