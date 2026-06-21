@@ -2,13 +2,13 @@
 
 This folder contains a curated, lightweight subset of Cantera simulation outputs for the `biochar-process-modeling` repository.
 
+The selected CSV files are stored inside `data/curated/` and organized by sensitivity group. Open the `curated/` folder to access the individual CSV files for moisture, temperature, and O2/N2 atmosphere cases.
+
 ## Scope
 
 The selected CSV files are reduced versions of larger simulation result files. They are provided to support reproducibility of qualitative trends in biomass conversion, biochar formation, and gas-product evolution.
 
 The files are **simulated reactor outputs**, not experimental measurements. They should not be interpreted as experimentally validated design data for industrial-scale biochar plants.
-
-The selected CSV files are stored inside `data/curated/` and organized by sensitivity group. Open the `curated/` folder to access the individual CSV files for moisture, temperature, and O₂/N₂ atmosphere cases.
 
 ## Curated columns
 
@@ -36,7 +36,9 @@ The file `manifest_simulation_cases.csv` documents the source file, case labels,
 
 ## Important temperature-unit note
 
-The historical scripts and result filenames use labels such as `T790`. The original Python script assigns `tk = 790.0` and passes this value to Cantera as Kelvin, while the associated publication figures discuss treatment temperatures such as 780, 790, and 800 °C. This repository therefore treats the temperature labels as **historical case labels until the original input basis is fully verified**.
+The historical scripts and result filenames use labels such as `T790`.
+
+The original Python script assigns `tk = 790.0` and passes this value to Cantera as Kelvin, while the associated publication figures discuss treatment temperatures such as 780, 790, and 800 °C. This repository therefore treats the temperature labels as **historical case labels until the original input basis is fully verified**.
 
 ## Numerical artifacts
 
