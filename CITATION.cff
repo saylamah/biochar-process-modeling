@@ -5,46 +5,42 @@ type: software
 version: "0.1.0"
 date-released: "2026-06-25"
 authors:
-
-* family-names: "Saylam"
-  given-names: "Ahmad"
-  email: "[saylamah@gmail.com](mailto:saylamah@gmail.com)"
-  repository-code: "https://github.com/saylamah/biochar-process-modeling"
-  url: "https://github.com/saylamah/biochar-process-modeling"
-  abstract: "Engineering models and technical notes for biomass conversion, biochar production, heat generation, syngas formation, and screening-level carbon management."
-  keywords:
-* "biomass conversion"
-* "biochar"
-* "pyrolysis"
-* "thermochemical conversion"
-* "syngas"
-* "carbon management"
-* "waste-to-X"
-* "heat recovery"
-* "process modeling"
-  license: "MIT"
-  references:
-* type: report
-  title: "Enhancing Biomass Conversion: Advanced Modelling and Process Optimization for Efficient Biochar and Heat Production"
-  authors:
-
-  * family-names: "Saylam"
+  - family-names: "Saylam"
     given-names: "Ahmad"
+    email: "saylamah@gmail.com"
+repository-code: "https://github.com/saylamah/biochar-process-modeling"
+url: "https://github.com/saylamah/biochar-process-modeling"
+abstract: "Engineering models and technical notes for biomass conversion, biochar production, heat generation, syngas formation, and screening-level carbon management."
+keywords:
+  - "biomass conversion"
+  - "biochar"
+  - "pyrolysis"
+  - "thermochemical conversion"
+  - "syngas"
+  - "carbon management"
+  - "waste-to-X"
+  - "heat recovery"
+  - "process modeling"
+license: "MIT"
+references:
+  - type: report
+    title: "Enhancing Biomass Conversion: Advanced Modelling and Process Optimization for Efficient Biochar and Heat Production"
+    authors:
+      - family-names: "Saylam"
+        given-names: "Ahmad"
     doi: "10.5281/zenodo.19438451"
     year: 2026
-* type: report
-  title: "Advancing Waste-to-X Technologies: Sustainable Thermochemical Pathways for Biomass Valorization and Carbon Credit Potential"
-  authors:
-
-  * family-names: "Saylam"
-    given-names: "Ahmad"
+  - type: report
+    title: "Advancing Waste-to-X Technologies: Sustainable Thermochemical Pathways for Biomass Valorization and Carbon Credit Potential"
+    authors:
+      - family-names: "Saylam"
+        given-names: "Ahmad"
     doi: "10.5281/zenodo.19785243"
     year: 2026
-* type: report
-  title: "Thermochemical Process Development: From Mechanism to Scale-Up and Industrial Adoption"
-  authors:
-
-  * family-names: "Saylam"
-    given-names: "Ahmad"
+  - type: report
+    title: "Thermochemical Process Development: From Mechanism to Scale-Up and Industrial Adoption"
+    authors:
+      - family-names: "Saylam"
+        given-names: "Ahmad"
     doi: "10.5281/zenodo.20760609"
     year: 2026
