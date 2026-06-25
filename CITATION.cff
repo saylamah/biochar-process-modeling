@@ -4,6 +4,7 @@ title: "Biomass Process Modeling"
 type: software
 version: "0.1.0"
 date-released: "2026-06-25"
+doi: "10.5281/zenodo.20841046"
 authors:
   - family-names: "Saylam"
     given-names: "Ahmad"
