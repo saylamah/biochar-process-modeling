@@ -1,4 +1,6 @@
-# Biochar Process Modeling
+# Biomass Process Modeling
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20841046.svg)](https://doi.org/10.5281/zenodo.20841046)
 
 Simplified engineering models, Cantera-based reactor examples, curated simulation data, and technical notes for biomass conversion, biochar production, heat generation, syngas formation, and screening-level carbon-management assessment.
 
